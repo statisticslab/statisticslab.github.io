@@ -1,0 +1,41 @@
+Package: netgsa
+Type: Package
+Title: Network-Based Gene Set Analysis
+Version: 4.0.1
+Date: 2020-09-13
+Authors@R: c(
+    person("Michael", "Hellstern", email = "mikeh1@uw.edu", role = c("aut","cre")),
+    person("Ali", "Shojaie", email = "ashojaie@uw.edu", role = c("aut")),
+    person("Jing", "Ma", role = "aut"),
+    person("Kun", "Yue", role = "aut"))
+Description: Carry out Network-based Gene Set Analysis by incorporating external information about interactions among genes, as well as novel interactions learned from data. Implements methods described in Shojaie A, Michailidis G (2010) <doi:10.1093/biomet/asq038>, Shojaie A, Michailidis G (2009) <doi:10.1089/cmb.2008.0081>, and Ma J, Shojaie A, Michailidis G (2016) <doi:10.1093/bioinformatics/btw410>
+Depends: R (>= 3.5.0)
+biocViews:
+Imports: 
+	AnnotationDbi,
+	corpcor, 
+	data.table,
+	dplyr,
+	graph, 
+	graphite, 
+	glmnet, 
+	glassoFast, 
+	igraph,
+	magrittr,
+	Matrix, 
+	msigdbr,
+	ndexr, 
+	org.Hs.eg.db,
+	quadprog, 
+	RCy3,
+	rlang,
+	Rcpp (>= 1.0.2),
+	RcppEigen (>= 0.3.3.5.0)
+Suggests: knitr, MASS, rmarkdown
+License: GPL (>=3)
+LinkingTo: Rcpp, RcppEigen
+LazyLoad: yes
+LazyData: true
+VignetteBuilder: knitr
+URL: https://github.com/mikehellstern/netgsa
+RoxygenNote: 7.1.1
