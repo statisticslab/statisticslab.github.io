@@ -1,4 +1,4 @@
-Ma Lab Website: [click to view](https://drjingma.com)
+Ma Lab Website in development: [click to view](statisticslab.github.io)
 
 # Deploying these Pages
 
