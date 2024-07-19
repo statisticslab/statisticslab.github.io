@@ -1,0 +1,217 @@
+---
+- repo: drjingma/slr
+  title: slr
+  owner: drjingma
+  description: R package for balance regression using the Supervised Log Ratio method
+  url: "/projects/slr"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  - login: kristynpantoja
+    avatar: https://avatars.githubusercontent.com/u/43481750?v=4&s=50
+    url: https://github.com/kristynpantoja
+  commits:
+  - date: 2023-02-02 23:34:19.000000000 Z
+    message: add notes
+    url: https://github.com/drjingma/slr/commit/3255b3f0e36b7ef53b71c2959fae52cdc011897b
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2023-02-02 23:24:56.000000000 Z
+    message: add vignette
+    url: https://github.com/drjingma/slr/commit/b8c61332f1c9bf176362881c3f9624ccba90bd95
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2023-02-02 23:20:58.000000000 Z
+    message: add vignette
+    url: https://github.com/drjingma/slr/commit/cead2471e79bac3a8c02e8e16150c554e000966d
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2023-02-02 23:17:05.000000000 Z
+    message: add vignette
+    url: https://github.com/drjingma/slr/commit/bd1cfc24a8a22e7c08244428496807adf55026f0
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2023-02-02 23:12:31.000000000 Z
+    message: remove travis
+    url: https://github.com/drjingma/slr/commit/aede6d6f64c2edb1452f5b011f6c615d5ee2088b
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+- repo: drjingma/gmm
+  title: gmm
+  owner: drjingma
+  description: Clustering of high-dimensional Gaussian mixtures with the EM algorithm
+  url: "/projects/gmm"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-12-02 17:49:05.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/gmm/commit/699bf5e4ca1aa6cacaa345578805b553fcd98b9a
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-12-02 17:48:19.000000000 Z
+    message: Add TCGA data
+    url: https://github.com/drjingma/gmm/commit/74d1c03090a7936b609f11e471bd11137708850f
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-02-13 23:55:59.000000000 Z
+    message: add gmm index
+    url: https://github.com/drjingma/gmm/commit/79eac750f03a785023849e72ecba68c864ca1f5a
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-06 18:12:14.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/gmm/commit/19ca04c792df2fc414e0bc48d6ee0a61c9f4d2a2
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2018-11-20 20:19:12.000000000 Z
+    message: Update file name
+    url: https://github.com/drjingma/gmm/commit/44d7a6f992bf58ff07b2850d4e3c7c3bbb052348
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+- repo: drjingma/netgsa
+  title: netgsa
+  owner: drjingma
+  description: Network-based Gene Set Analysis
+  url: "/projects/netgsa"
+  contributors:
+  - login: mikehellstern
+    avatar: https://avatars.githubusercontent.com/u/28374298?v=4&s=50
+    url: https://github.com/mikehellstern
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-02-22 15:49:02.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/netgsa/commit/db6bba8c38eee36dee9242ca53e8dc8c288bfb30
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-02-22 15:47:38.000000000 Z
+    message: Change index to README
+    url: https://github.com/drjingma/netgsa/commit/1b2505ee9a37105b4eaec3653492a5afbb7a9de0
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-02-14 00:03:56.000000000 Z
+    message: add netgsa project
+    url: https://github.com/drjingma/netgsa/commit/21857667f892c7a7081cc0cdf4987ec168ed5ca6
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-02-13 23:55:00.000000000 Z
+    message: add netgsa index
+    url: https://github.com/drjingma/netgsa/commit/e49507822fee52dc60bf9b16351891fb04e81656
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-06 17:48:18.000000000 Z
+    message: Update README
+    url: https://github.com/drjingma/netgsa/commit/b7136da8413a3f08b452255d4c43539c0b4da4eb
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+- repo: drjingma/JSEM
+  title: JSEM
+  owner: drjingma
+  description: Joint structural estimation of multiple graphical models
+  url: "/projects/JSEM"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-02-17 18:41:48.000000000 Z
+    message: Update
+    url: https://github.com/drjingma/JSEM/commit/3a8602a65d8561b3e6744f40d41fa950d9e17ad4
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-02-17 18:41:00.000000000 Z
+    message: Update
+    url: https://github.com/drjingma/JSEM/commit/4912d87eff728fafc2f88f9168af90792c214e08
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-06 18:14:58.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/JSEM/commit/182d1ea4cd98a1e863e32a7d1ecab6fca835502a
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2020-11-30 00:47:03.000000000 Z
+    message: Add instructions
+    url: https://github.com/drjingma/JSEM/commit/0399ceb6d646f6c11281edaa2a1ef88ecbf5d67f
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2020-11-30 00:45:21.000000000 Z
+    message: Add code
+    url: https://github.com/drjingma/JSEM/commit/f45651451795473e438c941281fb8b4d2f89697f
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+- repo: drjingma/TestBMN
+  title: TestBMN
+  owner: drjingma
+  description: Testing binary Markov networks
+  url: "/projects/TestBMN"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-02-11 01:14:48.000000000 Z
+    message: Update README.md
+    url: https://github.com/drjingma/TestBMN/commit/d5a48fe517d0c2901de75ee561528410ade4a553
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-05 19:19:27.000000000 Z
+    message: Update paper details
+    url: https://github.com/drjingma/TestBMN/commit/bcb6b18b8a700e0457d825a2a7a485d059cfeee6
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-05 19:17:37.000000000 Z
+    message: Add validity check
+    url: https://github.com/drjingma/TestBMN/commit/542dfcae4b5ecaf2f91035598bb187a4a48e951e
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2022-01-05 19:17:10.000000000 Z
+    message: Add dimensionality checker
+    url: https://github.com/drjingma/TestBMN/commit/32a2a886ffa986522291b51882004070dad7660b
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2018-03-06 22:59:06.000000000 Z
+    message: update bib
+    url: https://github.com/drjingma/TestBMN/commit/cf7a4a8e36e21a6e2689d06ff9236a26921f9b0b
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+- repo: drjingma/metaMint
+  title: metaMint
+  owner: drjingma
+  description: Metabolite and microbial interaction networks
+  url: "/projects/metaMint"
+  contributors:
+  - login: drjingma
+    avatar: https://avatars.githubusercontent.com/u/20731517?v=4&s=50
+    url: https://github.com/drjingma
+  commits:
+  - date: 2022-01-06 17:53:17.000000000 Z
+    message: Update README
+    url: https://github.com/drjingma/metaMint/commit/b7631aa4a1dfd5a718ea81b5f5639df3195008d4
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2019-12-22 17:22:07.000000000 Z
+    message: add vignette
+    url: https://github.com/drjingma/metaMint/commit/fd6b6d16221e3bea7f951cef1fc58767834f5d90
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2019-12-22 17:20:05.000000000 Z
+    message: Add vignette
+    url: https://github.com/drjingma/metaMint/commit/5fc0bf7e0826191d06f7490291e8b740ea251b43
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2019-12-22 17:19:57.000000000 Z
+    message: Update NAMESPACE
+    url: https://github.com/drjingma/metaMint/commit/295b35d288b8a84ddd3a677b9846b6c5f407f5f1
+    author_login: drjingma
+    author_url: https://github.com/drjingma
+  - date: 2019-12-22 17:19:41.000000000 Z
+    message: Update NAMESPACE
+    url: https://github.com/drjingma/metaMint/commit/b32d6d26ae47999e82af61e4dfff6f2ed7436071
+    author_login: drjingma
+    author_url: https://github.com/drjingma

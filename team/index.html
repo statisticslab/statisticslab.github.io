@@ -1,0 +1,156 @@
+---
+layout: default
+title: "team"
+navtab: "team"
+description: "People in the group"
+group: navigation
+navorder: 3
+---
+{% include JB/setup %}
+
+
+<style>
+    img.photo{
+          object-fit: cover;
+          object-position: 10% 50%; 
+          width:160px;
+          height:240px;
+    }
+</style>
+
+<div class="container">
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="title">
+			Current members
+		</div>
+	</div>
+</div>
+<hr/>
+
+<div class="row">
+{% for member in site.categories.team reversed %}
+	{% if member.alum == false %}
+	    {% cycle 'add rows': '<div class="row">', '', '' %}
+			<div class="col-lg-4 memberbox">
+				<div class="media">
+	  				<a class="pull-left" href="{{ member.url }}">
+	    				<img class="media-object member-photo" src="{{ member.image }}">
+	  				</a>
+	 			 	<div class="media-body">
+	    				<div class="head media-heading member-name">
+	    				  <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+	    				</div>
+	    				<p class="note">{{ member.position }}</p>
+						{% if member.cv %}		
+						<div class="smallhead">
+							CV
+						</div>	
+						<div class="pad-left note">
+							<div class="smallspacer"></div>
+							<i class="fa fa-file-text-o fa-fw"></i>			
+							<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+						</div>		
+						<div class="bigspacer"></div>		
+						{% endif %}
+	  			</div>
+				</div>
+	     </div>	  
+	    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
+	{% endif %}
+{% endfor %}
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="title">
+			Past members
+		</div>
+	</div>
+</div>  
+<hr/>
+<ul>
+  <li><a href="http://www.linkedin.com/in/antoinette-fang/"> Antoinette Fang</a>, SURP Intern Summer 2022. 
+  <ul>
+    <li>  Current position: Undergraduate student in Mathematics at the University of Chicago.
+    </li>
+  </ul>
+  </li>
+  <li><a href="http://www.linkedin.com/in/lakshinkumar/" >Lakshin Kumar</a>, Undergraduate RA 2021-2022, joint with <a href="https://promislowlab.org/">Daniel Promislow</a>. 
+  <ul>
+    <li> Current position: Undergraduate student in Biochemistry at the University of Washington. </li>
+  </ul>
+  </li>
+  <li><a href="http://www.linkedin.com/in/iliasmoysidis/">Ilias Moysidis</a>, Postdoc 2021-2022. 
+  <ul>
+    <li>Current position: Researcher at Centre for Research & Technology - Hellas, Greece.
+    </li>
+  </ul>
+  </li>
+  <li>Fang Nan, MS student 2021-2023. 
+  <ul>
+    <li>Current position: PhD student at UC San Diego.
+    </li>
+  </ul>
+  </li>
+  <li><a href="https://www.linkedin.com/in/kristyn-pantoja/">Kristyn Pantoja</a>, Graduate RA 2020-2023, joint with <a href="https://david-jones-statistics.github.io/">David Jones</a>. 
+  <ul>
+    <li>Current position: Principal Biostatistician at Novartis.</li>
+  </ul>
+  </li>    
+  <li><a href="http://taryue.github.io/">Yue Wang</a>, Postdoc 2018-2020, joint with <a href="http://faculty.washington.edu/ashojaie/">Ali Shojaie</a>. 
+  <ul>
+    <li>Current position: Assistant Professor of Biostatistics & Informatics at the University of Colorado Anschutz Medical Campus.</li>
+  </ul>
+  </li>
+  <li><a href="http://students.washington.edu/yuek/">Kun Yue</a>, Graduate RA 2018-2020, joint with <a href="http://faculty.washington.edu/ashojaie/">Ali Shojaie</a>. 
+  <ul>
+    <li>Current position: Data & Applied Scientist at Microsoft.</li>
+  </ul>
+  </li>
+  <li><a href="https://www.linkedin.com/in/jordan-jackson-5b6464185/">Jordan Jackson</a>, Rotation student, Spring 2023. 
+  <ul>
+    <li>Current position: Ph.D. student in the <a href="https://sites.uw.edu/m3d/">Molecular Medicine and Mechanisms of Disease (M3D) Program</a> at the University of Washington.</li>
+  </ul>
+  </li>
+</ul> 
+ 
+<div class="row">
+{% for member in site.categories.team reversed %}
+	{% if member.alum == true %}
+	    {% cycle 'add rows': '<div class="row">', '', '' %}
+			<div class="col-lg-4 memberbox">
+				<div class="media">
+	  				<a class="pull-left" href="{{ member.url }}">
+	    				<img class="media-object member-photo" src="{{ member.image }}">
+	  				</a>
+	 			 	<div class="media-body">
+	    				<div class="head media-heading member-name">
+	    				  <a href="{{ member.url }}" class="off">{{ member.title }}</a>
+	    				</div>
+	    				<p class="note">{{ member.position }}</p>
+						{% if member.cv %}		
+						<div class="smallhead">
+							CV
+						</div>	
+						<div class="pad-left note">
+							<div class="smallspacer"></div>
+							<i class="fa fa-file-text-o fa-fw"></i>			
+							<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+						</div>		
+						<div class="bigspacer"></div>		
+						{% endif %}
+	  			</div>
+				</div>
+	     </div>	  
+	    {% cycle 'close rows': '', '', '</div><div class="bigspacer"></div>' %}
+	{% endif %}
+{% endfor %}
+</div>
+
+
+</div>
+

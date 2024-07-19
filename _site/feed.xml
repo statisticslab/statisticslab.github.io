@@ -1,0 +1,242 @@
+<<<<<<< HEAD
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.name | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    {% for post in site.categories.blog limit:25 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      </item>
+    {% endfor %}
+        {% for post in site.categories.news limit:25 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      </item>
+    {% endfor %}
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jing Ma, PhD</title>
+    <description>Statistical Machine Learning for the Microbiome</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Talk by R. A. Fisher (1947)</title>
+        <description>&lt;p&gt;The following was an excerpt from the book “The Lady Tasting Tea”, originally from Fisher’s talk on the nature of science and scientific investigation with the BBC radio network. These words partly refer to Fisher’s experience with the then preeminent journal &lt;i&gt;Biometrika&lt;/i&gt;, which was edited by Karl Pearson. Fisher’s important mathematical proof of the statistical distribution of Galton’s correlation coefficient was merely published as a footnote to a larger paper in which Pearson and his assistant displayed tables of the distribution under selected parameter values. Fisher never published another paper in &lt;i&gt;Biometrika&lt;/i&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;bigspacer&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;“A scientifi career is peculiar in some ways. Its raison d’etre is the increase of natural knowledge. Occasionally, therefore, an increase of natural knowledge occurs. But this is tactless, and feelings are hurt. For in some small degree it is inevitable that views previously expounded are shown to be either obsolete or false. Most people, I think, can recognize this and take it in good part if what they have been teaching for ten years or so comes to need a little revision; but some undoubtedly take it hard, as a blow to their amour propre, or even as an invasion of the territory they have come to think of as exclusively their own, and they must react with the same ferocity as we can see in the robins and chaffinches these spring days when they resent an intrusion into their little territories. I do not think anything can be done about it. It is inherent in the nature of our profession; but a young scientist may be warned and advised that when he has a jewel to offer for the enrichment of mankind some certainly will wish to turn and rend them.”&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 26 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/fisher</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/fisher</guid>
+      </item>
+    
+      <item>
+        <title>What I believe -- by Einstein (1930)</title>
+        <description>&lt;p&gt;The following was originally published in October 1930 on FORUM, vol. LXXXIV, No.4. It has been a great inspiration to me, and I hope you enjoy reading it as well.&lt;/p&gt;
+
+&lt;div class=&quot;bigspacer&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;What I Believe&lt;/strong&gt;&lt;br /&gt;
+Living Philosophies XIII&lt;br /&gt;
+by Albert Einstein&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;bigspacer&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Strange is our situation here upon earth. Each of us comes for a short visit, not knowing why, yet sometimes seeming to divine a purpose.&lt;/p&gt;
+
+&lt;p&gt;From the standpoint of daily life, however, there is one thing we do know: that man is here for the sake of other men – above all for those upon whose smile and well-being our own happiness depends, and also for the countless unknown souls with whose fate we are connected by a bond of sympathy. Many times a day I realize how much my own outer and inner life is built upon the labors of my fellow men, both living and dead, and how earnestly I must exert myself in order to give in return as much as I have received. My peace of mind is often troubled by the depressing sense that I have borrowed too heavily from the work of other men.&lt;/p&gt;
+
+&lt;p&gt;I do not believe we can have any freedom at all in the philosophical sense, for we act not only under external compulsion but also by inner necessity. Schopenhauer’s saying – “A man can surely do what he wills to do, but he cannot determine what he wills” – impressed itself upon me in youth and has always consoled me when I have witnessed or suffered life’s hardships. This conviction is a perpetual breeder of tolerance, for it does not allow us to take ourselves or others too seriously; it makes rather for a sense of humor.&lt;/p&gt;
+
+&lt;p&gt;To ponder interminably over the reason for one’s own existence or the meaning of life in general seems to me, from an objective point of view, to be sheer folly. And yet everyone holds certain ideals by which he guides his aspiration and his judgment. The ideals which have always shone before me and filled me with the joy of living are goodness, beauty, and truth. To make a goal of comfort or happiness has never appealed to me; a system of ethics built on this basis would be sufficient only for a herd of cattle.&lt;/p&gt;
+
+&lt;p&gt;Without the sense of collaborating with like-minded beings in the pursuit of the ever unattainable in art and scientific research, my life would have been empty. Ever since childhood I have scorned the commonplace limits so often set upon human ambition. Possessions, outward success, publicity, luxury – to me these have always been contemptible. I believe that a simple and unassuming manner of life is best for everyone, best both for the body and the mind.&lt;/p&gt;
+
+&lt;p&gt;My passionate interest in social justice and social responsibility has always stood in curious contrast to a marked lack of desire for direct association with men and women. I am a horse for single harness, not cut out for tandem or team work. I have never belonged wholeheartedly to country or state, to my circle of friends, or even to my own family. These ties have always been accompanied by a vague aloofness, and the wish to withdraw into myself increases with the years.&lt;/p&gt;
+
+&lt;p&gt;Such isolation is sometimes bitter, but I do not regret being cut off from the understanding and sympathy of other men. I lose something by it, to be sure, but I am compensated for it in being rendered independent of the customs, opinions, and prejudices of others, and am not tempted to rest my peace of mind upon such shifting foundations.&lt;/p&gt;
+
+&lt;p&gt;My political ideal is democracy. Everyone should be respected as an individual, but no one idolized. It is an irony of fate that I should have been showered with so much uncalled-for and unmerited admiration and esteem. Perhaps this adulation springs from the unfulfilled wish of the multitude to comprehend the few ideas which I, with my weak powers, have advanced.&lt;/p&gt;
+
+&lt;p&gt;Full well do I know that in order to attain any definite goal it is imperative that one person should do the thinking and commanding and carry most of the responsibility. But those who are led should not be driven, and they should be allowed to choose their leader. It seems to me that the distinctions separating the social classes are false; in the last analysis they rest on force. I am convinced that degeneracy follows every autocratic system of violence, for violence inevitably attracts moral inferiors. Time has proved that illustrious tyrants are succeeded by scoundrels.&lt;/p&gt;
+
+&lt;p&gt;For this reason I have always been passionately opposed to such regimes as exist in Russia and Italy to-day. The thing which has discredited the European forms of democracy is not the basic theory of democracy itself, which some say is at fault, but the instability of our political leadership, as well as the impersonal character of party alignments.&lt;/p&gt;
+
+&lt;p&gt;I believe that you in the United States have hit upon the right idea. You choose a President for a reasonable length of time and give him enough power to acquit himself properly of his responsibilities. In the German Government, on the other hand, I like the state’s more extensive care of the individual when he is ill or unemployed. What is truly valuable in our bustle of life is not the nation, I should say, but the creative and impressionable individuality, and the personality – he who produces the noble and sublime while the common herd remains dull in thought and insensible in feeling.&lt;/p&gt;
+
+&lt;p&gt;This subject brings me to that vilest offspring of the herd mind – the odious militia. The man who enjoys marching in line and file to the strains of music falls below my contempt; he received his great brain by mistake – the spinal cord would have been amply sufficient. This heroism at command, this senseless violence, this accursed bombast of patriotism – how intensely I despise them! War is low and despicable, and I had rather be smitten to shreds than participate in such doings.&lt;/p&gt;
+
+&lt;p&gt;Such a stain on humanity should be erased without delay. I think well enough of human nature to believe that it would have been wiped out long ago had not the common sense of nations been systematically corrupted through school and press for business and political reasons.&lt;/p&gt;
+
+&lt;p&gt;The most beautiful thing we can experience is the mysterious. It is the source of all true art and science. He to whom this emotion is a stranger, who can no longer pause to wonder and stand rapt in awe, is as good as dead: his eyes are closed. This insight into the mystery of life, coupled though it be with fear, has also given rise to religion. To know that what is impenetrable to us really exists, manifesting itself as the highest wisdom and the most radiant beauty which out dull faculties can comprehend only in their most primitive forms – this knowledge, this feeling, is at the center of true religiousness. In this sense, and in this sense only, I belong in the ranks of devoutly religious men.&lt;/p&gt;
+
+&lt;p&gt;I cannot imagine a God who rewards and punishes the objects of his creation, whose purposes are modeled after our own – a God, in short, who is but a reflection of human frailty. Neither can I believe that the individual survives the death of his body, although feeble souls harbor such thoughts through fear or ridiculous egotism. It is enough for me to contemplate the mystery of conscious life perpetuating itself through all eternity, to reflect upon the marvelous structure of the universe which we can dimly perceive, and to try humbly to comprehend even an infinitesimal part of the intelligence manifested in nature.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 10 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/whatibelieve</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/whatibelieve</guid>
+      </item>
+    
+        
+      <item>
+        <title>Kun Yue receives Best Student Paper Award</title>
+        <description>&lt;p&gt;Congratulations to &lt;a href=&quot;team/kunyue&quot;&gt;Kun Yue&lt;/a&gt;, who who has been named a winner of Best Student Paper for the &lt;a href=&quot;http://www.wnar.org/resources/Documents/WNAR_2021_student_competition.pdf&quot;&gt;2021 WNAR Student Paper Competition&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Her paper “REHE: Fast Variance Components Estimation for Linear Mixed Models” proposes a new method for estimating the variance components in linear mixed models.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Jul 2021 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/news/WNAR</link>
+        <guid isPermaLink="true">http://localhost:4000/news/WNAR</guid>
+      </item>
+    
+      <item>
+        <title>Jing receives Microbiome Research Pilot Award</title>
+        <description>&lt;p&gt;Jing received an award from The &lt;a href=&quot;https://centernet.fredhutch.org/cn/u/pam-irc.html&quot;&gt;Pathogen Associated Malignancies Integrated Research Center&lt;/a&gt; for the pilot project on “Statistical Methods for Network-based Analysis of the Colorectal Cancer Microbiome”.&lt;/p&gt;
+
+&lt;p&gt;This project is in collaboration with on Dr. &lt;a href=&quot;https://www.fredhutch.org/en/faculty-lab-directory/phipps-amanda.html&quot;&gt;Amanda Phipps&lt;/a&gt; (associate professor of epidemiology, University of Washington, and associate professor in the Public Health Sciences Division), Dr. &lt;a href=&quot;https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division/faculty-labs/vidd-staff-scientists-physicians/minot-samuel.html&quot;&gt;Sam Minot&lt;/a&gt; (associate director of data science applications, Hutch Data Core) and Dr. &lt;a href=&quot;https://www.fredhutch.org/en/faculty-lab-directory/dey-neelendu.html&quot;&gt;Neelendu Dey&lt;/a&gt; (assistant professor in the Clinical Research Division).&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Jul 2021 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/news/mri-pilot</link>
+        <guid isPermaLink="true">http://localhost:4000/news/mri-pilot</guid>
+      </item>
+    
+      <item>
+        <title>Ilias Moysidis joins the group</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/iliasmoysidis/&quot;&gt;Ilias Moysidis&lt;/a&gt; obtained his Ph.D. in Statistics from Penn State University in 2021. Welcome, Ilias!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Jun 2021 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/news/moysidis</link>
+        <guid isPermaLink="true">http://localhost:4000/news/moysidis</guid>
+      </item>
+    
+      <item>
+        <title>Postdoc Yue Wang joins ASU</title>
+        <description>&lt;p&gt;Congratulations, &lt;a href=&quot;https://taryue.github.io/&quot;&gt;Yue&lt;/a&gt;! Yue has done amazing work in dimensionality reduction of structured microbiome data and high-dimensional inference. Check out his paper &lt;a href=&quot;/papers/GMDbiplot&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;/papers/GMDR&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Aug 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/news/wang</link>
+        <guid isPermaLink="true">http://localhost:4000/news/wang</guid>
+      </item>
+    
+      <item>
+        <title>Launch of the Dog Aging Project</title>
+        <description>&lt;p&gt;We are looking for dogs for the largest-ever study of aging in canines! You can find out more about the Dog Aging Project &lt;a href=&quot;https://dogagingproject.org/&quot;&gt;here&lt;/a&gt; or from &lt;a href=&quot;https://www.nytimes.com/aponline/2019/11/14/health/ap-us-med-aging-dogs-study.html&quot;&gt;this article&lt;/a&gt; in New York Times.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/news/DAP</link>
+        <guid isPermaLink="true">http://localhost:4000/news/DAP</guid>
+      </item>
+    
+      <item>
+        <title>Jing will visit Texas A&amp;M Statistics</title>
+        <description>&lt;p&gt;I will be visiting &lt;a href=&quot;https://www.stat.tamu.edu/&quot;&gt;Department of Statistics&lt;/a&gt; at Texas A&amp;amp;M University as Assistant Professor, during the academic year 2019-2020.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Aug 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/news/new-position</link>
+        <guid isPermaLink="true">http://localhost:4000/news/new-position</guid>
+      </item>
+    
+      <item>
+        <title>Machine learning helps elucidate chronic kidney disease progression</title>
+        <description>&lt;p&gt;Joint work with Drs. &lt;a href=&quot;https://medicine.umich.edu/dept/dcmb/alla-karnovsky-phd&quot;&gt;Alla Karnovsky&lt;/a&gt;, &lt;a href=&quot;http://pennathur.med.umich.edu/farsad-afshinnia-md-ms&quot;&gt;Farsad Afshinnia&lt;/a&gt; and George Michailidis on differential network enrichment analysis is featured at Fred Hutch &lt;a href=&quot;http://www.fredhutch.org/en/news/spotlight/2019/05/phs_ma_bioinformatics.html&quot;&gt;Science Spotlight&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 May 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/news/fhcrc</link>
+        <guid isPermaLink="true">http://localhost:4000/news/fhcrc</guid>
+      </item>
+    
+      <item>
+        <title>Jing receives the Jayne Koskinas Ted Giovanis Foundation Award</title>
+        <description>&lt;p&gt;Jing received award from The &lt;a href=&quot;http://jktgfoundation.org/&quot;&gt;Jayne Koskinas Ted Giovanis Foundation for Health and Policy&lt;/a&gt;, joint with &lt;a href=&quot;https://kyounglab.umbc.edu/&quot;&gt;Minjoung Kyoung&lt;/a&gt;, &lt;a href=&quot;https://www.uakron.edu/chemistry/faculty-staff/Konopka.dot&quot;&gt;Michael Konopka&lt;/a&gt;, &lt;a href=&quot;https://profiles.ucsf.edu/tara.sigdel&quot;&gt;Tara Sigdel&lt;/a&gt;, &lt;a href=&quot;https://sites.google.com/site/yhchangucb&quot;&gt;Young Hwan Chang&lt;/a&gt; on a proposal titled ``Understanding Therapeutics Failures Through 4D Single-cell Analysis of Metabolic Heterogeneity”.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 25 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/news/bd2k</link>
+        <guid isPermaLink="true">http://localhost:4000/news/bd2k</guid>
+      </item>
+    
+      <item>
+        <title>Application for postdoc is closed</title>
+        <description>&lt;p&gt;&lt;strong&gt;Position Title&lt;/strong&gt;: Postdoctoral Researcher in Biostatistics&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;: The research group led by Dr. Jing Ma in the Division of Public Health Sciences at Fred Hutchinson Cancer Research Center and Prof. Ali Shojaie in the Department of Biostatistics at the University of Washington is seeking for a highly motivated postdoctoral researcher to develop novel statistical methods for problems in genomics and microbiome. The project will focus on methods for analysis of complex biological/ecological systems using novel statistical machine learning tools, including network analysis, high-dimensional regression and inference. This is a unique opportunity for someone who is interested in a collaborative environment and interacting with investigators with diverse experiences. The position is available for 2 years from August 1st 2018 (or by negotiation).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duties and Responsibilities&lt;/strong&gt;: The successful candidate will work with Dr. Jing Ma and Prof. Ali Shojaie in developing novel statistical/computational methods in the context of genomics and microbiome. He/she will have opportunities to join collaborative research projects within Fred Hutch and UW as well as external collaborations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Position Qualifications&lt;/strong&gt;: The successful candidate will have&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;completed (or nearly completed) a PhD in Statistics/Biostatistics or a closely related area prior to their appointment;&lt;/li&gt;
+  &lt;li&gt;demonstrated a capacity to produce high quality research.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, the ideal candidate will also have&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;expertise in statistical machine learning and high-dimensional inference;&lt;/li&gt;
+  &lt;li&gt;applied work in genomics and microbiome data analysis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Salary Range&lt;/strong&gt;: Competitive.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to Apply&lt;/strong&gt;: Please email the following materials to jingma@fredhutch.org:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CV;&lt;/li&gt;
+  &lt;li&gt;two publication samples or preprints;&lt;/li&gt;
+  &lt;li&gt;a one page statement of research interests;&lt;/li&gt;
+  &lt;li&gt;contact information of three references.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Application is closed&lt;/strong&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 16 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/news/postdoc</link>
+        <guid isPermaLink="true">http://localhost:4000/news/postdoc</guid>
+      </item>
+    
+      <item>
+        <title>Save the date: 2018 Fred Hutch Microbiome Symposium</title>
+        <description>&lt;p&gt;Fred Hutch is excited to host the &lt;a href=&quot;http://www.fredhutch.org/en/labs/phs/projects/biostats/events/pastevents/microbiome2018/agenda.html&quot;&gt;2018 Microbiome Symposium&lt;/a&gt; on March 16th, 2018! Sessons include&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Making sense of the human microbiome,&lt;/li&gt;
+  &lt;li&gt;Microbiome and infectious disease,&lt;/li&gt;
+  &lt;li&gt;Bioinformatics for the microbiome,&lt;/li&gt;
+  &lt;li&gt;Microbiome data analysis.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 25 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/news/symposium</link>
+        <guid isPermaLink="true">http://localhost:4000/news/symposium</guid>
+      </item>
+    
+      <item>
+        <title>Jing will join Fred Hutch Biostatistics</title>
+        <description>&lt;p&gt;Jing will join &lt;a href=&quot;http://www.fredhutch.org/en/labs/phs.html&quot;&gt;Biostatistics within Division of Public Health Sciences &lt;/a&gt; as Assistant Professor, starting from August 1st, 2017.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Jul 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/news/new_position</link>
+        <guid isPermaLink="true">http://localhost:4000/news/new_position</guid>
+      </item>
+    
+>>>>>>> deploy
+  </channel>
+</rss>
